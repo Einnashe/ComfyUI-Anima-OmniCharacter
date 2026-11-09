@@ -47,7 +47,7 @@ Anima OmniCharacter 是一个用于 Anima 的 ComfyUI 自定义节点。它从�
 
 **Artist Tag 一定程度上受支持。** 在正向提示词中写 `@artist name`，把 `artist name` 换成实际的画师标签。效果会随标签和参考图而异。可参考 [Anima 提示词指南](https://huggingface.co/circlestone-labs/Anima#artist-tags)。
 
-**风格 LoRA** 可和角色参考同时使用。用 ComfyUI 的 `Load LoRA (Model Only)` 加载与 Anima 兼容的风格 LoRA，再把它的 `MODEL` 输出接到 `Apply Anima OmniCharacter`。风格 LoRA 的强度在普通加载节点里调，角色参考强度在 OmniCharacter 节点里调。Artist Tag 和风格 LoRA 也可以同时开启；需要比较各自的效果时，可以固定种子后分别开启。
+**风格 LoRA（可选）**。示例工作流默认只加载 OmniCharacter 角色参考权重。如果你有自己的 Anima 兼容风格 LoRA，可以手动添加 `Load LoRA (Model Only)`，把它的 `MODEL` 输出接到 `Apply Anima OmniCharacter`。也可以和 Artist Tag 搭配使用。
 
 ## 效果展示
 

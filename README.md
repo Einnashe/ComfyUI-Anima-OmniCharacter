@@ -82,10 +82,10 @@ The workflow contains:
 - **Artist tags (partial support):** Add `@artist name` to the positive prompt.
   The effect varies with the tag and reference image. See the
   [Anima prompting guide](https://huggingface.co/circlestone-labs/Anima#artist-tags).
-- **Style LoRAs:** Load an Anima-compatible style LoRA with ComfyUI's standard
-  `Load LoRA (Model Only)` node before `Apply Anima OmniCharacter`. Select
-  `anima_omnicharacter.safetensors` in the OmniCharacter node. An artist tag and
-  a style LoRA can be used together.
+- **Optional style LoRAs:** The example workflow loads only the OmniCharacter
+  reference LoRA. To use your own Anima-compatible style LoRA, add
+  `Load LoRA (Model Only)` before `Apply Anima OmniCharacter`. You can also use
+  an artist tag alongside it.
 
 ## Showcase
 
