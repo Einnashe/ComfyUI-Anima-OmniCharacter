@@ -1,6 +1,6 @@
 # ComfyUI Anima OmniCharacter
 
-[English](README.md)
+[English](README.md) · [Hugging Face 模型](https://huggingface.co/Einnashe07/Anima-OmniCharacter)
 
 Anima OmniCharacter 是一个用于 Anima 的 ComfyUI 自定义节点。它从一张参考图提取单个角色的外观特征，参考图可以从头部特写到全身。
 

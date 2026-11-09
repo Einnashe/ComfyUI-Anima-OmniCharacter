@@ -1,6 +1,6 @@
 # ComfyUI Anima OmniCharacter
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) · [Hugging Face model](https://huggingface.co/Einnashe07/Anima-OmniCharacter)
 
 A ComfyUI custom node for applying Anima OmniCharacter control LoRAs to an Anima
 generation workflow.
