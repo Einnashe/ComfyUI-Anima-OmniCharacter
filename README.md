@@ -9,15 +9,6 @@ The node adds a reference-image branch to Anima self-attention, while applying
 the control-only LoRA only to that branch. Reference projections are cached
 during one sampler call to avoid recomputing them at every denoising step.
 
-## Features
-
-- One-node integration with a standard Anima workflow
-- Positive and negative conditioning support
-- LoRA discovery through ComfyUI's model paths
-- Reference-image encoding through the selected VAE
-- Optional reference K/V caching
-- Validation for Anima models and control-routed LoRAs
-
 ## Installation
 
 Clone or copy this repository to:
