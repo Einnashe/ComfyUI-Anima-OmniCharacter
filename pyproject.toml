@@ -1,0 +1,9 @@
+[project]
+name = "anima-omnicharacter"
+description = "Apply Anima OmniCharacter control LoRAs in ComfyUI."
+version = "0.1.0"
+readme = "README.md"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Einnashe/ComfyUI-Anima-OmniCharacter"
