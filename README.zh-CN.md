@@ -53,7 +53,7 @@ Anima OmniCharacter 是一个用于 Anima 的 ComfyUI 自定义节点。它从�
 
 左边是参考图，右边是生成图。更多对比见 [Showcase](README.md#showcase)。
 
-![第 06 组的参考图和生成图](assets/showcase-06.jpg)
+![第 01 组的参考图和生成图](assets/showcase-01.jpg)
 
 ## 许可与致谢
 
