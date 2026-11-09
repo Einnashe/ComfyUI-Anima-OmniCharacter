@@ -118,7 +118,7 @@ Anima OmniCharacter on the right.
 | `negative` | Negative conditioning |
 | `vae` | VAE used to encode the reference image |
 | `reference_image` | Reference image |
-| `lora_name` | Anima OmniCharacter control-only LoRA |
+| `lora_name` | Select `anima_omnicharacter.safetensors` for character reference. |
 | `strength` | LoRA strength |
 | `cache_reference_kv` | Cache reference K/V for speed; enabled by default |
 
